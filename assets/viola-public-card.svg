@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+  <title id="t">Viola — Multimodal Perception Intelligence</title>
+  <desc id="d">Social preview for the public Viola technology presentation.</desc>
+  <defs>
+    <radialGradient id="g" cx="80%" cy="42%" r="46%">
+      <stop offset="0" stop-color="#5f4678" stop-opacity=".54"/>
+      <stop offset=".58" stop-color="#1b1423" stop-opacity=".31"/>
+      <stop offset="1" stop-color="#08070a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#08070a"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+
+  <g fill="none" stroke-linecap="round">
+    <circle cx="930" cy="315" r="188" stroke="#bda9d8" stroke-opacity=".10"/>
+    <circle cx="930" cy="315" r="118" stroke="#d5ad68" stroke-opacity=".08" stroke-dasharray="2 10"/>
+    <path d="M738 232 C817 216 867 242 930 315 S1035 405 1119 386" stroke="#c9b4e3" stroke-opacity=".22"/>
+    <path d="M755 439 C827 405 875 377 930 315 S1017 225 1094 205" stroke="#d5ad68" stroke-opacity=".17"/>
+    <path d="M806 142 C853 213 884 264 930 315 S1007 415 1044 492" stroke="#a98ccf" stroke-opacity=".15"/>
+  </g>
+
+  <circle cx="930" cy="315" r="58" fill="#8d6ab1" opacity=".48"/>
+  <circle cx="930" cy="315" r="28" fill="#0d0a12" stroke="#dacaf0" stroke-opacity=".46"/>
+  <circle cx="930" cy="315" r="5" fill="#d5ad68"/>
+
+  <text x="82" y="185" fill="#f3f0f7" font-family="Georgia, serif" font-style="italic" font-size="96">Viola</text>
+  <text x="86" y="263" fill="#c8c0d1" font-family="Arial, sans-serif" font-size="29">Multimodal Perception Intelligence</text>
+  <text x="86" y="365" fill="#d5ad68" font-family="monospace" font-size="17" letter-spacing="2.2">DEVELOPED SOFTWARE · STRATEGIC TECHNOLOGY</text>
+  <text x="86" y="405" fill="#8f8799" font-family="Arial, sans-serif" font-size="20">Specialized perception research with disciplined evidence boundaries</text>
+  <text x="86" y="535" fill="#6f6878" font-family="monospace" font-size="14" letter-spacing="1.6">THEARCHITECTMAX</text>
+</svg>

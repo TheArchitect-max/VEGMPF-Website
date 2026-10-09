@@ -31,28 +31,6 @@
     <path d="M112 392 C244 344 313 347 380 380 S520 417 650 371" stroke="#9f7fc9" stroke-opacity=".13"/>
   </g>
 
-  <g fill="#0d0b11" stroke="#c7b5df" stroke-opacity=".32">
-    <circle cx="164" cy="225" r="13"/>
-    <circle cx="561" cy="189" r="12"/>
-    <circle cx="626" cy="431" r="14"/>
-    <circle cx="508" cy="586" r="11"/>
-    <circle cx="246" cy="584" r="12"/>
-    <circle cx="132" cy="397" r="11"/>
-    <circle cx="321" cy="128" r="10"/>
-    <circle cx="459" cy="126" r="12"/>
-  </g>
-
-  <g fill="#d5ad68">
-    <circle cx="164" cy="225" r="2.8"/>
-    <circle cx="561" cy="189" r="2.8"/>
-    <circle cx="626" cy="431" r="2.8"/>
-    <circle cx="508" cy="586" r="2.8"/>
-    <circle cx="246" cy="584" r="2.8"/>
-    <circle cx="132" cy="397" r="2.8"/>
-    <circle cx="321" cy="128" r="2.8"/>
-    <circle cx="459" cy="126" r="2.8"/>
-  </g>
-
   <circle cx="380" cy="380" r="112" fill="#684984" opacity=".12" filter="url(#soft)"/>
   <circle cx="380" cy="380" r="72" fill="url(#core)" filter="url(#glow)"/>
   <circle cx="380" cy="380" r="41" fill="#100c15" stroke="#e3d7f4" stroke-opacity=".38"/>

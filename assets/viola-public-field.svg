@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="t d">
+  <title id="t">Viola multimodal perception field</title>
+  <desc id="d">Abstract conceptual visualization of multiple perception channels converging through a governed interpretation field.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="58%">
+      <stop offset="0" stop-color="#2b2036" stop-opacity=".94"/>
+      <stop offset=".48" stop-color="#15111b" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#09080c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="40%" cy="34%" r="64%">
+      <stop offset="0" stop-color="#dac8ff"/>
+      <stop offset=".24" stop-color="#a083cc"/>
+      <stop offset=".58" stop-color="#503869"/>
+      <stop offset="1" stop-color="#17101f"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <circle cx="380" cy="380" r="355" fill="url(#bg)"/>
+
+  <g fill="none" stroke-linecap="round">
+    <circle cx="380" cy="380" r="282" stroke="#cab8e2" stroke-opacity=".08"/>
+    <circle cx="380" cy="380" r="226" stroke="#d8b77d" stroke-opacity=".07" stroke-dasharray="2 12"/>
+    <circle cx="380" cy="380" r="165" stroke="#cab8e2" stroke-opacity=".09"/>
+
+    <path d="M122 272 C220 214 301 207 380 380 S552 549 640 486" stroke="#c8b2e3" stroke-opacity=".20"/>
+    <path d="M141 508 C235 477 298 462 380 380 S529 223 620 252" stroke="#d5ad68" stroke-opacity=".16"/>
+    <path d="M225 102 C283 221 319 292 380 380 S472 543 534 656" stroke="#b89fd7" stroke-opacity=".14"/>
+    <path d="M611 150 C516 231 463 292 380 380 S260 499 164 604" stroke="#d9c8ef" stroke-opacity=".10"/>
+    <path d="M112 392 C244 344 313 347 380 380 S520 417 650 371" stroke="#9f7fc9" stroke-opacity=".13"/>
+  </g>
+
+  <g fill="#0d0b11" stroke="#c7b5df" stroke-opacity=".32">
+    <circle cx="164" cy="225" r="13"/>
+    <circle cx="561" cy="189" r="12"/>
+    <circle cx="626" cy="431" r="14"/>
+    <circle cx="508" cy="586" r="11"/>
+    <circle cx="246" cy="584" r="12"/>
+    <circle cx="132" cy="397" r="11"/>
+    <circle cx="321" cy="128" r="10"/>
+    <circle cx="459" cy="126" r="12"/>
+  </g>
+
+  <g fill="#d5ad68">
+    <circle cx="164" cy="225" r="2.8"/>
+    <circle cx="561" cy="189" r="2.8"/>
+    <circle cx="626" cy="431" r="2.8"/>
+    <circle cx="508" cy="586" r="2.8"/>
+    <circle cx="246" cy="584" r="2.8"/>
+    <circle cx="132" cy="397" r="2.8"/>
+    <circle cx="321" cy="128" r="2.8"/>
+    <circle cx="459" cy="126" r="2.8"/>
+  </g>
+
+  <circle cx="380" cy="380" r="112" fill="#684984" opacity=".12" filter="url(#soft)"/>
+  <circle cx="380" cy="380" r="72" fill="url(#core)" filter="url(#glow)"/>
+  <circle cx="380" cy="380" r="41" fill="#100c15" stroke="#e3d7f4" stroke-opacity=".38"/>
+  <path d="M350 380 Q380 345 410 380 Q380 415 350 380Z" fill="none" stroke="#eee7f8" stroke-opacity=".55"/>
+  <circle cx="380" cy="380" r="5" fill="#f0d8a6"/>
+
+  <text x="380" y="472" text-anchor="middle" fill="#e7dff0" font-family="Georgia, serif" font-size="18">governed interpretation</text>
+  <text x="380" y="498" text-anchor="middle" fill="#8f8799" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.5">CONCEPTUAL REPRESENTATION</text>
+</svg>
